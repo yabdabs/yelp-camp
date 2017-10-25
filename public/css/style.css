@@ -1,0 +1,27 @@
+.campImages{
+	display: flex;
+	flex-wrap: wrap;	
+}
+
+
+.campImg{
+	height: 320px;
+	width:350px;
+}
+
+/*overriding bootstrap class, shouldn't do this*/
+.caption{
+	text-align: center;
+}
+
+.form-specs{
+	width: 30%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+/*or use bootstraps btn-block*/
+.submit-btn{
+	width: 100%;
+}
